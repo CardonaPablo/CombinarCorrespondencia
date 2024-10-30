@@ -19,5 +19,26 @@ class User(db.Model):
     fechaNacimiento = db.Column(db.String(80), nullable=False)
     edad = db.Column(db.String(80), nullable=False)
 
+    def to_dict(self):
+        return {
+            'id': self.id,
+            'nombre': self.nombre,
+            'apellido1': self.apellido1,
+            'apellido2': self.apellido2,
+            'cargo': self.cargo,
+            'empresa': self.empresa,
+            'calle': self.calle,
+            'numeroExt': self.numeroExt,
+            'numeroInt': self.numeroInt,
+            'colonia': self.colonia,
+            'municipio': self.municipio,
+            'estado': self.estado,
+            'codigoPostal': self.codigoPostal,
+            'telefono': self.telefono,
+            'correoElectronico': self.correoElectronico,
+            'fechaNacimiento': self.fechaNacimiento,
+            'edad': self.edad
+        }
+
     def __repr__(self):
         return f'<User {self.nombre}>'
