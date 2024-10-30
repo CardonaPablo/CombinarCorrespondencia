@@ -1,4 +1,5 @@
 from flask import current_app as app, render_template
+from .models import User
 
 @app.route('/')
 def index():
@@ -8,9 +9,11 @@ def index():
 @app.route('/usuarios')
 def users():
     print("Users route")
-    return render_template('users.html')
+    users = User.query.all()
+    return render_template('users.html', users=users)
 
 @app.route('/documentos')
 def documents():
     print("Documents route")
-    return render_template('documents.html')
+    users = User.query.all()
+    return render_template('documents.html', users=users)
