@@ -1,6 +1,7 @@
 from flask import current_app as app, redirect, render_template, request, url_for
 from .models import User
 from . import db
+from .utils.document_generator import generate_copies_for_users  # Import the modified script
 
 @app.route('/')
 def index():
@@ -83,3 +84,23 @@ def add_user():
 
     db.session.commit()
     return redirect(url_for('users'))
+
+@app.route('/delete_user', methods=['POST'])
+def delete_user():
+    print("Delete user route")
+    user_id = request.form.get('userId')
+    print("Deleting user with id:", user_id)
+    user = User.query.get(user_id)
+    db.session.delete(user)
+    db.session.commit()
+    return redirect(url_for('users'))
+
+@app.route('/generate_documents', methods=['POST'])
+def generate_documents():
+    print("Generate documents route")
+    user_ids = request.form.getlist('user_ids')
+    print(user_ids)
+    users = User.query.filter(User.id.in_(user_ids)).all()
+    user_data = [user.to_dict() for user in users]
+    generated_files = generate_copies_for_users(user_data)
+    return render_template('generated_documents.html', files=generated_files)

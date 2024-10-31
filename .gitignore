@@ -72,3 +72,6 @@ instance/
 # Windows
 Thumbs.db
 ehthumbs.db
+
+
+app/static/generated_documents

@@ -1,0 +1,16 @@
+Estimado(a) {nombre} {apellido1} {apellido2},
+
+Nos dirigimos a usted, {cargo} en {empresa}, para invitarle a considerar una oportunidad única que puede cambiar su futuro financiero. En {empresa}, sabemos que la juventud es el mejor momento para comenzar a planificar a largo plazo, y por eso queremos presentarle nuestro plan de Afore diseñado especialmente para personas de entre 20 y 30 años.
+
+Imagina poder asegurar tu futuro desde ahora, sin preocupaciones. Nuestro plan de Afore ofrece beneficios exclusivos y una gestión profesional que te permitirá ver crecer tus inversiones con el tiempo. No importa si vives en {calle} {numeroExt} {numeroInt}, {colonia}, {municipio}, {estado}, {codigoPostal}, siempre estaremos cerca para asesorarte en cada paso.
+
+Además, sabemos que tu tiempo es valioso, por lo que hemos simplificado el proceso de inscripción. Puedes contactarnos al {telefono} o enviarnos un correo a {correoElectronico} para recibir toda la información que necesitas. También puedes visitar nuestra página web para más detalles.
+
+Recuerda, {nombre}, que el mejor momento para empezar a invertir en tu futuro es ahora. No dejes pasar esta oportunidad. ¡Estamos aquí para ayudarte a construir un futuro sólido y seguro!
+
+Atentamente,
+
+El equipo de Afore
+{empresa}
+
+P.D. ¡Feliz cumpleaños adelantado! Sabemos que cumplirás {edad} el próximo {fechaNacimiento}. ¡Qué mejor regalo que comenzar a asegurar tu futuro financiero!
