@@ -12,7 +12,6 @@ def create_app():
     
     with app.app_context():
         from . import routes  # Import routes from the routes module  # noqa: F401
-        print(app.config['SQLALCHEMY_DATABASE_URI'])
         db.create_all()
     
     return app

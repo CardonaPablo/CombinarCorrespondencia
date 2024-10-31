@@ -1,0 +1,16 @@
+nombre,apellido1,apellido2,correoElectronico,fechaNacimiento,cargo,empresa,calle,numeroExt,numeroInt,colonia,municipio,estado,codigoPostal,telefono,edad
+Juan,Pérez,González,juan.perez@example.com,1985-06-15,Ingeniero,TechCorp,Calle Falsa,123,,Centro,México,CDMX,01000,5551234567,36
+María,López,Hernández,maria.lopez@example.com,1990-04-22,Analista,DataSolutions,Avenida Siempre Viva,456,2,Chapultepec,Guadalajara,Jalisco,44100,3339876543,31
+Carlos,Ramírez,Martínez,carlos.ramirez@example.com,1978-11-30,Gerente,Innovatech,Calle del Sol,789,,Roma Norte,México,CDMX,06700,5558765432,43
+Ana,Gómez,Sánchez,ana.gomez@example.com,1982-02-14,Desarrolladora,WebWorks,Calle Luna,321,4,Polanco,México,CDMX,11560,5552345678,39
+Luis,Fernández,Rodríguez,luis.fernandez@example.com,1995-08-09,Consultor,ConsultingPro,Avenida Reforma,654,,Centro,México,CDMX,06000,5553456789,26
+Laura,Morales,Jiménez,laura.morales@example.com,1987-12-05,Administradora,AdminCorp,Calle Estrella,987,3,Condesa,México,CDMX,06140,5554567890,34
+José,Martínez,Lopez,jose.martinez@example.com,1992-07-19,Soporte,HelpDesk,Calle Nube,123,,Narvarte,México,CDMX,03020,5555678901,29
+Elena,Rodríguez,Fernández,elena.rodriguez@example.com,1980-03-25,Contadora,FinancePlus,Avenida Insurgentes,456,5,Del Valle,México,CDMX,03100,5556789012,41
+Miguel,Hernández,García,miguel.hernandez@example.com,1975-09-10,Director,BigCorp,Calle Viento,789,,Santa Fe,México,CDMX,01219,5557890123,46
+Carmen,Jiménez,Pérez,carmen.jimenez@example.com,1988-01-30,Marketing,MarketExperts,Calle Agua,321,6,Escandón,México,CDMX,11800,5558901234,33
+Pedro,García,Morales,pedro.garcia@example.com,1993-05-18,Desarrollador,DevSolutions,Calle Fuego,654,,Roma Sur,México,CDMX,06760,5559012345,28
+Sofía,Lopez,Ramírez,sofia.lopez@example.com,1986-11-22,Recursos Humanos,HRCorp,Avenida Universidad,987,7,Coyoacán,México,CDMX,04360,5550123456,35
+Fernando,Sánchez,Gómez,fernando.sanchez@example.com,1979-04-05,Ingeniero,TechSolutions,Calle Tierra,123,,San Ángel,México,CDMX,01060,5551234568,42
+Patricia,Ramírez,Hernández,patricia.ramirez@example.com,1991-08-29,Analista,DataCorp,Avenida Patriotismo,456,8,Escandón,México,CDMX,11800,5552345679,30
+Jorge,González,Martínez,jorge.gonzalez@example.com,1983-02-17,Consultor,ConsultingExperts,Calle Mar,789,,Roma Norte,México,CDMX,06700,5553456780,38

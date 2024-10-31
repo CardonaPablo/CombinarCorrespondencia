@@ -7,9 +7,7 @@ def create_copies(oficio, data):
     # Crear un oficio por cada registro
     generated_files = []
     for row in data:
-        print("QUE PUTA VERGA")
         oficio_persona = oficio.format(**row)
-        print("I anu", row)
         new_file_name = f'oficio_{row["id"]}.txt'
         new_file_path = os.path.join(base_path, 'static', 'generated_documents', new_file_name)
         with open(new_file_path, 'w') as file:

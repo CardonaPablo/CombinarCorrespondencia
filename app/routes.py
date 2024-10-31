@@ -5,24 +5,20 @@ from .utils.document_generator import generate_copies_for_users  # Import the mo
 
 @app.route('/')
 def index():
-    print("Index route")
     return render_template('index.html')
 
 @app.route('/usuarios')
 def users():
-    print("Users route")
     users = User.query.all()
     return render_template('users.html', users=users)
 
 @app.route('/documentos')
 def documents():
-    print("Documents route")
     users = User.query.all()
     return render_template('documents.html', users=users)
 
 @app.route('/add_user', methods=['POST'])
 def add_user():
-    print("Add user route")
     user_id = request.form.get('userId')
     nombre = request.form.get('nombre')
     apellido1 = request.form.get('apellido1')
@@ -87,9 +83,7 @@ def add_user():
 
 @app.route('/delete_user', methods=['POST'])
 def delete_user():
-    print("Delete user route")
     user_id = request.form.get('userId')
-    print("Deleting user with id:", user_id)
     user = User.query.get(user_id)
     db.session.delete(user)
     db.session.commit()
@@ -97,9 +91,7 @@ def delete_user():
 
 @app.route('/generate_documents', methods=['POST'])
 def generate_documents():
-    print("Generate documents route")
     user_ids = request.form.getlist('user_ids')
-    print(user_ids)
     users = User.query.filter(User.id.in_(user_ids)).all()
     user_data = [user.to_dict() for user in users]
     generated_files = generate_copies_for_users(user_data)
